@@ -23,6 +23,8 @@
 
 7.  vueJS
 
+        1. 간단한 거 한 개 뚝딱 만들어 봐야 겠다.
+
 8.  react chart, graph - (d3, chart js)
 
 9.  promise
@@ -32,3 +34,7 @@
 11. deps 배열
 
 12. DOM
+
+13. 커스텀 훅
+
+14. skeleton
