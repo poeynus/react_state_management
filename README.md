@@ -11,7 +11,14 @@
 
 3.  useMemo()
 
+        1. useMemo가 함수를 저장했다가 불러와서 쓰는 것인줄 알았는데 그런게 아니라 필요없는 렌더링 없애는 거구나.
+        2. useCallback과 유사한 거 같다.
+        3. 얘는 결과 값만 재사용하네
+
 4.  useCallback()
+
+        1. useCallback 함수는 useMemo를 기반으로 만들어졌다. - 유사함
+        2. 특정 함수를 재사용 할 때 적용
 
 5.  useRef()
 
@@ -21,7 +28,7 @@
 
 6.  gridLayout
 
-7.  vueJS
+7.  vueJS - 꽃잎 점
 
         1. 간단한 거 한 개 뚝딱 만들어 봐야 겠다.
 
@@ -38,3 +45,5 @@
 13. 커스텀 훅
 
 14. skeleton
+
+15. useReducer()
