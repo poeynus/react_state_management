@@ -34,6 +34,9 @@
 
 8.  react chart, graph - (d3, chart js)
 
+        1. chart.js, react-chartjs-2, faker 설치
+        2. 기가 막히네 나중에 쓸 수 있는 상황이 생기면 좋겠다.
+
 9.  promise
 
 10. 동기와 비동기 - 동기야 자니?
