@@ -46,7 +46,12 @@
         2. 특정 상황에 특정 이펙트를 실행하기 위해서 있는 것
         3. 지금까지는 그냥 썼는데 이런 의미였네
 
-12. DOM
+12. DOM - Document Object Model
+
+        1. 웹이 원본 html을 읽은 후 스타일을 입히고 표시하는 과정을 Critical Rendering Path라 한다.
+        2. CRP 6단계 = DOM 트리 구축, CSSOM 트리 구축, JS실해, 렌더 트리 구축, 레이아웃 생성, 페인팅
+        3. DOM은 HTML 문서에 대한 인터페이스이다.
+        4. https://usefultoknow.tistory.com/entry/DOM-%EC%9D%B4%EB%9E%80-%EC%9B%B9-%ED%8E%98%EC%9D%B4%EC%A7%80%EA%B0%80-%EB%A7%8C%EB%93%A4%EC%96%B4%EC%A7%80%EB%8A%94-%EB%B0%A9%EB%B2%95
 
 13. 커스텀 훅
 
@@ -63,3 +68,5 @@
 19. typescript
 
 20. 비동기 동작으로 인한 메모리 누수 방지
+
+21. cypress
