@@ -2,10 +2,9 @@
 
 1.  redux
 
-        redux dux 패턴
-        https://github.com/erikras/ducks-modular-redux
-
-        프로젝트 단위가 엄청 크면 쓰고 왠만하면 swr + context API나 쓰자
+        1. redux dux 패턴 - https://github.com/erikras/ducks-modular-redux
+        2. 프로젝트 단위가 엄청 크면 쓰고 왠만하면 swr + context API나 쓰자
+        3. thunk와 saga의 차이점은?
 
 2.  swr + context API
 
@@ -54,3 +53,13 @@
 14. skeleton
 
 15. useReducer()
+
+16. formik / yup
+
+17. jest, enzyme
+
+18. storybook - atomic design
+
+19. typescript
+
+20. 비동기 동작으로 인한 메모리 누수 방지
