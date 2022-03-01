@@ -5,11 +5,12 @@ import ScrollCheck from "./useRef-practice/scrollCheck";
 import { BubbleTest } from "./chartJS-practice/bubble";
 import { PieTest } from "./chartJS-practice/pie";
 import { GridLayout } from "./grid-practice/gridLayout";
+import { Skrr } from "./skeleton-practice/skrr";
 
 export const App = () => {
   return (
     <div>
-      <GridLayout />
+      <Skrr />
     </div>
   );
 };
