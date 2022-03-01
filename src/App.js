@@ -6,11 +6,13 @@ import { BubbleTest } from "./chartJS-practice/bubble";
 import { PieTest } from "./chartJS-practice/pie";
 import { GridLayout } from "./grid-practice/gridLayout";
 import { Skrr } from "./skeleton-practice/skrr";
+import { UseRedu } from "./useReducer-practice/redu";
+import { Scrollll } from "./customHook-practice/useScroll";
 
 export const App = () => {
   return (
     <div>
-      <Skrr />
+      <Scrollll />
     </div>
   );
 };

@@ -67,6 +67,11 @@
 
 13. 커스텀 훅
 
+        1. 내가 찾던게 이거였다.
+        2. 반복되는 로직이 많을 경우 재사용하는 방법
+        3. 이번에는 useScroll 만들어보았다.
+        4. 현재 진행하고 있는 프로젝트에 useInput을 만들어서 적용해야겠다.
+
 14. skeleton
 
         1. 비동기 동작에서 아직 데이터가 로딩되지 않았을 경우 적용
@@ -75,14 +80,43 @@
 
 15. useReducer()
 
+        1. 이거 잘 쓰면 리덕스 잘 쓰겠다.
+        2. useState랑 유사하지만 작동 방식이 redux같음
+
 16. formik / yup
+
+        1. yup은 validatorJS와 유사하다. 근데 validatorJS가 더 자세한 거 같다.
+        2. formik은 form을 핸들링 하는 것이다.
+        3. formik과 yup을 동시에 쓰는 것 아니면 validator가 좋은 거 같다.
+        4. 이거는 다음 프로젝트에 2개를 다 바로 적용 해보아야 겠다.
 
 17. jest, enzyme
 
 18. storybook - atomic design
 
+        1. 전에 프로젝트에서 한 번 적용해봐서 감을 잡고 있음
+        2. 스토리북 자체가 아토믹 디자인을 적용하는 것 아니면 별로 효율이 안나는 것 같음
+        3. css framework를 사용한다면 필요가 없다.
+
 19. typescript
+
+        1. storybook 프로젝트에서 적용했었음
+        2. 한 가지 반성할 것이 type을 any로 많이 => 좀 더 조사를 많이 하고 했어야 했다.
 
 20. 비동기 동작으로 인한 메모리 누수 방지
 
+        1. 사진 판매 프로젝트에서 메인페이지에 상품 통신이 끝나기 전에 다른 페이지로 이동하면 메모리 누수가 발생했었다.
+        2. 당시에는 인지만 하고 넘어갔는데 이번에 진행하는 프로젝트는 누수를 잡고 가려고 한다.
+        3. https://juliangaramendy.dev/blog/use-promise-subscription
+
 21. cypress
+
+22. 여러 기업들의 코드 컨벤션
+
+        1. Google JavaScript Style Guide
+        2. Airbnb JavaScript Style Guide
+        3. JavaScript Standard Style
+        4. NHN FE개발랩
+        - 에어비앤비를 좀 많이 봐야지
+
+23. developer mozilla Web API - https://developer.mozilla.org/ko/docs/Web/API
