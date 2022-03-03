@@ -110,6 +110,10 @@
         3. https://juliangaramendy.dev/blog/use-promise-subscription
 
 21. cypress
+        1. react 성능 테스트
+        2. cypress에 lint 발생하면 pakage.json eslintConfig에 "plugin:cypress/recommended" 넣기
+        3. 와 이거 진짜 신기하네 바로 적용해볼 예정
+        4. https://gusrb3164.github.io/web/2021/07/13/cypress-react/
 
 22. 여러 기업들의 코드 컨벤션
 
@@ -120,3 +124,11 @@
         - 에어비앤비를 좀 많이 봐야지
 
 23. developer mozilla Web API - https://developer.mozilla.org/ko/docs/Web/API
+
+24. async await
+
+        1. 비동기 코드를 동기코드로 짤 수 있게 해주는 것
+        2. 기존에 then, catch 붙이던 것을 바꿀 수 있겠다.
+        3. 지금 하고 있는 프로젝트에 적용해서 바꾸자
+
+25. Remind vanillaJS
