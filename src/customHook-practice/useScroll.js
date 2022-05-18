@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import ReactDom from "react-dom";
 
 const useScroll = () => {
   const [state, setState] = useState({ x: 0, y: 0 });

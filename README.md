@@ -90,7 +90,10 @@
         3. formik과 yup을 동시에 쓰는 것 아니면 validator가 좋은 거 같다.
         4. 이거는 다음 프로젝트에 2개를 다 바로 적용 해보아야 겠다.
 
-17. jest, enzyme
+17. jest - enzyme
+
+        1. 이거 아니면 cypress를 사용하는 것인데 cypress가 더 편한 거 같다.
+        2. 사실 이거는 안써봄 ㅋ
 
 18. storybook - atomic design
 
@@ -131,4 +134,4 @@
         2. 기존에 then, catch 붙이던 것을 바꿀 수 있겠다.
         3. 지금 하고 있는 프로젝트에 적용해서 바꾸자
 
-25. Remind vanillaJS
+25. Lazy loading
