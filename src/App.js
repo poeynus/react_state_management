@@ -1,35 +1,39 @@
-import React from "react";
-import axios from 'axios';
-// import CounterContainer from "./redux-practice/components/CounterContainer";
-// import InputSample from "./useRef-practice/InputSample";
-// import ScrollCheck from "./useRef-practice/scrollCheck";
-// import { BubbleTest } from "./chartJS-practice/bubble";
-// import { PieTest } from "./chartJS-practice/pie";
-// import { GridLayout } from "./grid-practice/gridLayout";
-// import { Skrr } from "./skeleton-practice/skrr";
-// import { UseRedu } from "./useReducer-practice/redu";
-// import { Scrollll } from "./customHook-practice/useScroll";
-
-
-const customAxios = axios.create({ timeout: 3000 });
+import React, { useCallback } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { logIn, logOut } from "./new/react_redux/actions/user";
 
 export const App = () => {
-  const axiosTest = async() => {
-    try {
-      const result = axios({
-        method:'get',
-        url:"/api/test",
-        data: {id: 1}
+  const user = useSelector((state) => state.user);
+  const posts = useSelector((state) => state.posts);
+  const dispatch = useDispatch();
+
+  const onClick = useCallback(() => {
+    dispatch(
+      logIn({
+        id: "zerocho",
+        password: "비밀번호",
       })
-      console.log(result)
-    } catch (error) {
-      console.log(error);
-    }
-  }
+    );
+  }, []);
+
+  const onLogout = useCallback(() => {
+    dispatch(logOut());
+  }, []);
 
   return (
-    <button onClick={axiosTest}>
-      Tttttetetetetete
-    </button>
+    <div>
+      {user.isLoggingIn ? (
+        <div>로그인 중</div>
+      ) : user.data ? (
+        <div>{user.data.nickname}</div>
+      ) : (
+        "로그인 해주세요."
+      )}
+      {!user.data ? (
+        <button onClick={onClick}>로그인</button>
+      ) : (
+        <button onClick={onLogout}>로그아웃</button>
+      )}
+    </div>
   );
 };

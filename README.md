@@ -1,5 +1,9 @@
 ### react 상태 관리와 여러가지 함수 숙달용 ++ 평소 공부 해보고 싶던 거 전부 해보기
 
+<details>
+<summary>과거</summary>
+<div markdown="1">
+
 1.  redux
 
         1. redux dux 패턴 - https://github.com/erikras/ducks-modular-redux
@@ -112,11 +116,7 @@
         2. 당시에는 인지만 하고 넘어갔는데 이번에 진행하는 프로젝트는 누수를 잡고 가려고 한다.
         3. https://juliangaramendy.dev/blog/use-promise-subscription
 
-21. cypress
-        1. react 성능 테스트
-        2. cypress에 lint 발생하면 pakage.json eslintConfig에 "plugin:cypress/recommended" 넣기
-        3. 와 이거 진짜 신기하네 바로 적용해볼 예정
-        4. https://gusrb3164.github.io/web/2021/07/13/cypress-react/
+21. cypress 1. react 성능 테스트 2. cypress에 lint 발생하면 pakage.json eslintConfig에 "plugin:cypress/recommended" 넣기 3. 와 이거 진짜 신기하네 바로 적용해볼 예정 4. https://gusrb3164.github.io/web/2021/07/13/cypress-react/
 
 22. 여러 기업들의 코드 컨벤션
 
@@ -135,3 +135,33 @@
         3. 지금 하고 있는 프로젝트에 적용해서 바꾸자
 
 25. Lazy loading
+
+</div>
+</details>
+
+---
+
+<details>
+<summary>New!</summary>
+<div markdown="2">
+
+1.  redux로 간단한 거 만들어보면서 체화 시키기
+
+        - 예전에 썼었지만 redux먹다가 체한 거 같다 다시 먹어야 할 듯 ^^
+
+2.  mobx로 만들어보기
+
+3.  redux-toolkit으로 만들어보기
+
+4.  contextAPI로 만들어보기
+
+5.  react function 다시숙달하기
+
+        - 얘도 먹다가 체했나 보다.
+
+6.  테스티 라이브러리 다시 먹기
+
+        - jest, cypress 이번엔 소화까지를 목표로
+
+</div>
+</details>
