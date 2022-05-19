@@ -148,6 +148,7 @@
 1.  redux로 간단한 거 만들어보면서 체화 시키기
 
         - 예전에 썼었지만 redux먹다가 체한 거 같다 다시 먹어야 할 듯 ^^
+        - 오랜만에 다시 하니까 약간 지금까지 한 코드들에서 뭐가 빠졌는지 눈이 좀 트이네
 
 2.  mobx로 만들어보기
 
@@ -159,9 +160,24 @@
 
         - 얘도 먹다가 체했나 보다.
 
-6.  테스티 라이브러리 다시 먹기
+6.  테스팅 라이브러리 다시 먹기
 
         - jest, cypress 이번엔 소화까지를 목표로
+
+</div>
+</details>
+
+<details>
+<summary>Life Situation</summary>
+<div markdown="3">
+
+1.  react-redux로 ToDoList 만들기
+
+        - json-server로 해보기
+
+2.  mobx로 ToDoList 만들기
+
+3.  redux-toolkit으로 ToDoList 만들기
 
 </div>
 </details>
